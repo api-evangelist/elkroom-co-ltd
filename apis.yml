@@ -1,9 +1,29 @@
 aid: elkroom-co-ltd
 name: ELKROOM CO., LTD.
-description: ELKROOM CO., LTD. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  ELKROOM CO., LTD. is a consumer mobile-gaming studio and 500 Global portfolio
+  company behind the OXO product family. Its flagship OXO Game Launcher is an
+  Android game launcher and optimization tool that organizes a player's games and
+  automatically tracks play history, journals, monthly reports, rankings, and
+  community activity, and has surpassed five million downloads on Google Play. The
+  company also builds OXO Gameplay, an AI-powered gaming content and social
+  platform for Android and iOS, and Stricer, a cloud-based AI video analysis and
+  highlight-editing tool on the web. ELKROOM operates consumer applications rather
+  than a public developer API; this profile captures its public identity, product
+  surface, and legal/policy pages. Tagline: "You Chase Glory. We Make It Legendary."
 url: https://raw.githubusercontent.com/api-evangelist/elkroom-co-ltd/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://elkroom.com/images/og/default.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,15 +32,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gaming
+- Mobile
+- Consumer Apps
+- Game Launcher
+- AI Video
+- Social Platform
+- Android
+- iOS
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+- FN: ELKROOM Support
+  email: oxo@elkroom.com
 common:
+- type: DomainSecurity
+  url: security/elkroom-co-ltd-domain-security.yml
 - type: Website
   url: https://elkroom.com
+- type: PrivacyPolicy
+  url: https://elkroom.com/en/privacy/
+- type: TermsOfService
+  url: https://elkroom.com/en/terms/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/elkroom
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.elkroom.gamelauncher
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
